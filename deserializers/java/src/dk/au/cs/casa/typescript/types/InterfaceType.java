@@ -3,6 +3,9 @@ package dk.au.cs.casa.typescript.types;
 import java.util.List;
 import java.util.Map;
 
+/*
+ * Read https://www.typescriptlang.org/docs/handbook/2/objects.html
+ */
 public class InterfaceType implements Type {
     private List<Type> typeParameters;
     private List<Type> baseTypes;

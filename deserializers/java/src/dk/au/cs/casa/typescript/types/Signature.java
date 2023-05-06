@@ -2,6 +2,10 @@ package dk.au.cs.casa.typescript.types;
 
 import java.util.List;
 
+/*
+ * Function signature in typescript, including parameter names and their types.
+ * A signature itself is not a type.
+ */
 public class Signature {
     private List<Type> typeParameters;
     private List<Parameter> parameters;

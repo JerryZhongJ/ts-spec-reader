@@ -21,4 +21,5 @@ src/TypeScriptEnvironmentReader.js
 src/TypeScriptEnvironmentReader.js.map
 
 *.iml
+bin/
 

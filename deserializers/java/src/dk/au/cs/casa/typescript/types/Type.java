@@ -1,5 +1,8 @@
 package dk.au.cs.casa.typescript.types;
 
+/*
+ * Types in typescript
+ */
 public interface Type {
     <T> T accept(TypeVisitor<T> v);
 
